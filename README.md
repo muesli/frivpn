@@ -23,7 +23,9 @@ in the best possible VPN bandwidth and throughput.
 ```
 # apt install build-essential lua5.2 lua5.2-dev lua-posix lua-luaossl lua-cqueues libssl-dev liblzo2-dev
 $ git clone https://github.com/znuh/frivpn.git
-$ cd frivpn
+$ mkdir frivpn/build
+$ cd frivpn/build
+$ cmake ..
 $ make
 ```
 
